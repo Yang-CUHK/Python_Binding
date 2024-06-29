@@ -10,4 +10,4 @@ To use it:
 If you want to use pybind 11:
 **python3 -c pybind11 evaluate.py target**
 
-**The target can be file or folder.
+**The target can be file or folder.**
