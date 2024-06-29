@@ -1,0 +1,876 @@
+/home/yang/Desktop/summer/cpython/Objects/unicodectype.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/boolobject.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/funcobject.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/exceptions.c
+{b'"__reduce__"': b'METH_NOARGS', b'"__setstate__"': b'METH_O', b'"with_traceback"': b'METH_O', b'"add_note"': b'METH_O', b'"derive"': b'METH_O', b'"split"': b'METH_O', b'"subgroup"': b'METH_O', b'"__getstate__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Objects/complexobject.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/descrobject.c
+{b'"__reduce__"': b'wrapper_reduce', b'"get"': b'METH_FASTCALL', b'"keys"': b'mappingproxy_keys', b'"values"': b'mappingproxy_values', b'"items"': b'mappingproxy_items', b'"copy"': b'mappingproxy_copy', b'"__class_getitem__"': b'Py_GenericAlias', b'"__reversed__"': b'mappingproxy_reversed', b'"getter"': b'property_getter', b'"setter"': b'property_setter', b'"deleter"': b'property_deleter', b'"__set_name__"': b'property_set_name'}
+/home/yang/Desktop/summer/cpython/Objects/weakrefobject.c
+{b'"__class_getitem__"': b'Py_GenericAlias', b'"__bytes__"': b'proxy_bytes', b'"__reversed__"': b'proxy_reversed'}
+/home/yang/Desktop/summer/cpython/Objects/unionobject.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/classobject.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/setobject.c
+{b'"__length_hint__"': b'METH_NOARGS', b'"__reduce__"': b'METH_NOARGS', b'"__class_getitem__"': b'Py_GenericAlias'}
+/home/yang/Desktop/summer/cpython/Objects/fileobject.c
+{b'"close"': b'METH_NOARGS', b'"flush"': b'METH_NOARGS', b'"fileno"': b'METH_NOARGS', b'"isatty"': b'METH_NOARGS', b'"write"': b'METH_VARARGS'}
+/home/yang/Desktop/summer/cpython/Objects/obmalloc.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/tupleobject.c
+{b'"__class_getitem__"': b'Py_GenericAlias', b'"__length_hint__"': b'METH_NOARGS', b'"__reduce__"': b'METH_NOARGS', b'"__setstate__"': b'METH_O'}
+/home/yang/Desktop/summer/cpython/Objects/object.c
+{b'"__reduce__"': b'NotImplemented_reduce'}
+/home/yang/Desktop/summer/cpython/Objects/namespaceobject.c
+{b'"__reduce__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Objects/unicodeobject.c
+{b'"format"': b'format__doc__', b'"format_map"': b'METH_O', b'"__getnewargs__"': b'unicode_getnewargs', b'"__length_hint__"': b'METH_NOARGS', b'"__reduce__"': b'METH_NOARGS', b'"__setstate__"': b'METH_O', b'"formatter_field_name_split"': b'METH_O', b'"formatter_parser"': b'METH_O'}
+/home/yang/Desktop/summer/cpython/Objects/iterobject.c
+{b'"__length_hint__"': b'METH_NOARGS', b'"__reduce__"': b'METH_NOARGS', b'"__setstate__"': b'METH_O', b'"send"': b'METH_O', b'"throw"': b'METH_VARARGS', b'"close"': b'METH_VARARGS'}
+/home/yang/Desktop/summer/cpython/Objects/bytearrayobject.c
+{b'"__length_hint__"': b'METH_NOARGS', b'"__reduce__"': b'METH_NOARGS', b'"__setstate__"': b'METH_O'}
+/home/yang/Desktop/summer/cpython/Objects/typeobject.c
+{b'"__subclasshook__"': b'object_subclasshook', b'"__init_subclass__"': b'object_init_subclass'}
+/home/yang/Desktop/summer/cpython/Objects/bytesobject.c
+{b'"__length_hint__"': b'METH_NOARGS', b'"__reduce__"': b'METH_NOARGS', b'"__setstate__"': b'METH_O'}
+/home/yang/Desktop/summer/cpython/Objects/moduleobject.c
+{b'"__dir__"': b'module_dir'}
+/home/yang/Desktop/summer/cpython/Objects/sliceobject.c
+{b'"__reduce__"': b'METH_NOARGS', b'"indices"': b'METH_O'}
+/home/yang/Desktop/summer/cpython/Objects/typevarobject.c
+{b'"__reduce__"': b'NoDefault_reduce', b'"__mro_entries__"': b'typevartuple_mro_entries', b'"__class_getitem__"': b'generic_class_getitem_doc'}
+/home/yang/Desktop/summer/cpython/Objects/enumobject.c
+{b'"__reduce__"': b'METH_NOARGS', b'"__class_getitem__"': b'Py_GenericAlias', b'"__length_hint__"': b'METH_NOARGS', b'"__setstate__"': b'METH_O'}
+/home/yang/Desktop/summer/cpython/Objects/abstract.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/picklebufobject.c
+{b'"raw"': b'METH_NOARGS', b'"release"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Objects/floatobject.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/genobject.c
+{b'"send"': b'METH_O', b'"throw"': b'METH_FASTCALL', b'"close"': b'METH_NOARGS', b'"__sizeof__"': b'METH_NOARGS', b'"__class_getitem__"': b'Py_GenericAlias', b'"asend"': b'METH_O', b'"athrow"': b'METH_VARARGS', b'"aclose"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Objects/structseq.c
+{b'"__reduce__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Objects/longobject.c
+{b'"conjugate"': b'long_long_meth', b'"__trunc__"': b'long_long_meth', b'"__floor__"': b'long_long_meth', b'"__ceil__"': b'long_long_meth'}
+/home/yang/Desktop/summer/cpython/Objects/bytes_methods.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/cellobject.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/memoryobject.c
+{b'"__enter__"': b'memory_enter', b'"__exit__"': b'memory_exit'}
+/home/yang/Desktop/summer/cpython/Objects/listobject.c
+{b'"__getitem__"': b'list_subscript', b'"__class_getitem__"': b'Py_GenericAlias', b'"__length_hint__"': b'listreviter_len', b'"__reduce__"': b'listreviter_reduce', b'"__setstate__"': b'listreviter_setstate'}
+/home/yang/Desktop/summer/cpython/Objects/call.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/genericaliasobject.c
+{b'"__mro_entries__"': b'ga_mro_entries', b'"__instancecheck__"': b'ga_instancecheck', b'"__subclasscheck__"': b'ga_subclasscheck', b'"__reduce__"': b'ga_iter_reduce', b'"__dir__"': b'ga_dir'}
+/home/yang/Desktop/summer/cpython/Objects/methodobject.c
+{b'"__reduce__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Objects/rangeobject.c
+{b'"__reversed__"': b'range_reverse', b'"__reduce__"': b'METH_NOARGS', b'"count"': b'METH_O', b'"index"': b'METH_O', b'"__length_hint__"': b'METH_NOARGS', b'"__setstate__"': b'METH_O'}
+/home/yang/Desktop/summer/cpython/Objects/frameobject.c
+{b'"__contains__"': b'framelocalsproxy___contains__', b'"__getitem__"': b'framelocalsproxy_getitem', b'"update"': b'framelocalsproxy_update', b'"__reversed__"': b'METH_NOARGS', b'"copy"': b'METH_NOARGS', b'"keys"': b'METH_NOARGS', b'"values"': b'METH_NOARGS', b'"items"': b'METH_NOARGS', b'"get"': b'METH_FASTCALL', b'"setdefault"': b'METH_FASTCALL', b'"clear"': b'METH_NOARGS', b'"__sizeof__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Objects/codeobject.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/capsule.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/odictobject.c
+{b'"__sizeof__"': b'METH_NOARGS', b'"__reduce__"': b'METH_NOARGS', b'"keys"': b'odictkeys_new', b'"values"': b'odictvalues_new', b'"items"': b'odictitems_new', b'"update"': b'odict_update__doc__', b'"clear"': b'METH_NOARGS', b'"copy"': b'METH_NOARGS', b'"__reversed__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Objects/dictobject.c
+{b'"__length_hint__"': b'dictiter_len', b'"__reduce__"': b'dictiter_reduce', b'"isdisjoint"': b'dictviews_isdisjoint', b'"__reversed__"': b'dictvalues_reversed'}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/alloc-posix.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/segment-map.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/alloc.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/static.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/stats.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/heap.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/segment.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/bitmap.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/os.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/alloc-aligned.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/arena.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/random.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/page.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/page-queue.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/options.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/alloc-override.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/init.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/prim/prim.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/prim/osx/alloc-override-zone.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/prim/osx/prim.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/prim/wasi/prim.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/prim/unix/prim.c
+{}
+/home/yang/Desktop/summer/cpython/Objects/mimalloc/prim/windows/prim.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_scproxy.c
+{b'"_get_proxy_settings"': b'get_proxy_settings', b'"_get_proxies"': b'get_proxies'}
+/home/yang/Desktop/summer/cpython/Modules/_uuidmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_functoolsmodule.c
+{b'"__reduce__"': b'METH_NOARGS', b'"__setstate__"': b'METH_O', b'"__class_getitem__"': b'Py_GenericAlias', b'"__copy__"': b'METH_VARARGS', b'"__deepcopy__"': b'METH_VARARGS', b'"reduce"': b'functools_reduce'}
+/home/yang/Desktop/summer/cpython/Modules/_interpretersmodule.c
+{b'"new_config"': b'new_config_doc', b'"create"': b'create_doc', b'"destroy"': b'destroy_doc', b'"list_all"': b'list_all_doc', b'"get_current"': b'interp_get_current', b'"get_main"': b'interp_get_main', b'"is_running"': b'is_running_doc', b'"get_config"': b'get_config_doc', b'"whence"': b'whence_doc', b'"exec"': b'exec_doc', b'"call"': b'call_doc', b'"run_string"': b'run_string_doc', b'"run_func"': b'run_func_doc', b'"set___main___attrs"': b'set___main___attrs_doc', b'"is_shareable"': b'is_shareable_doc', b'"capture_exception"': b'capture_exception_doc'}
+/home/yang/Desktop/summer/cpython/Modules/_stat.c
+{b'"S_ISDIR"': b'stat_S_ISDIR', b'"S_ISCHR"': b'stat_S_ISCHR', b'"S_ISBLK"': b'stat_S_ISBLK', b'"S_ISREG"': b'stat_S_ISREG', b'"S_ISFIFO"': b'stat_S_ISFIFO', b'"S_ISLNK"': b'stat_S_ISLNK', b'"S_ISSOCK"': b'stat_S_ISSOCK', b'"S_ISDOOR"': b'stat_S_ISDOOR', b'"S_ISPORT"': b'stat_S_ISPORT', b'"S_ISWHT"': b'stat_S_ISWHT', b'"S_IMODE"': b'stat_S_IMODE', b'"S_IFMT"': b'stat_S_IFMT', b'"filemode"': b'stat_filemode'}
+/home/yang/Desktop/summer/cpython/Modules/mathmodule.c
+{b'"acos"': b'math_acos', b'"acosh"': b'math_acosh', b'"asin"': b'math_asin', b'"asinh"': b'math_asinh', b'"atan"': b'math_atan', b'"atan2"': b'METH_FASTCALL', b'"atanh"': b'math_atanh', b'"cbrt"': b'math_cbrt', b'"copysign"': b'METH_FASTCALL', b'"cos"': b'math_cos', b'"cosh"': b'math_cosh', b'"erf"': b'math_erf', b'"erfc"': b'math_erfc', b'"exp"': b'math_exp', b'"exp2"': b'math_exp2', b'"expm1"': b'math_expm1', b'"fabs"': b'math_fabs', b'"gamma"': b'math_gamma', b'"gcd"': b'METH_FASTCALL', b'"hypot"': b'METH_FASTCALL', b'"lcm"': b'METH_FASTCALL', b'"lgamma"': b'math_lgamma', b'"log"': b'METH_FASTCALL', b'"log1p"': b'math_log1p', b'"remainder"': b'METH_FASTCALL', b'"sin"': b'math_sin', b'"sinh"': b'math_sinh', b'"sqrt"': b'math_sqrt', b'"tan"': b'math_tan', b'"tanh"': b'math_tanh'}
+/home/yang/Desktop/summer/cpython/Modules/posixmodule.c
+{b'"__class_getitem__"': b'Py_GenericAlias', b'"__enter__"': b'METH_NOARGS', b'"__exit__"': b'METH_VARARGS', b'"close"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Modules/resource.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/overlapped.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testbuffer.c
+{b'"tolist"': b'ndarray_tolist', b'"tobytes"': b'ndarray_tobytes', b'"pop"': b'ndarray_pop', b'"add_suboffsets"': b'ndarray_add_suboffsets', b'"memoryview_from_buffer"': b'ndarray_memoryview_from_buffer'}
+/home/yang/Desktop/summer/cpython/Modules/md5module.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/pyexpat.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_interpchannelsmodule.c
+{b'"create"': b'channelsmod_create', b'"destroy"': b'channelsmod_destroy_doc', b'"list_all"': b'channelsmod_list_all', b'"list_interpreters"': b'channelsmod_list_interpreters_doc', b'"send"': b'channelsmod_send_doc', b'"send_buffer"': b'channelsmod_send_buffer_doc', b'"recv"': b'channelsmod_recv_doc', b'"close"': b'channelsmod_close_doc', b'"release"': b'channelsmod_release_doc', b'"get_info"': b'channelsmod_get_info_doc'}
+/home/yang/Desktop/summer/cpython/Modules/_cursesmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/xxsubtype.c
+{b'"getstate"': b'METH_VARARGS', b'"setstate"': b'METH_VARARGS', b'"bench"': b'spam_bench'}
+/home/yang/Desktop/summer/cpython/Modules/_csv.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_opcode.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_lsprof.c
+{b'"enable"': b'enable_doc', b'"disable"': b'METH_NOARGS', b'"clear"': b'METH_NOARGS', b'"_pystart_callback"': b'METH_FASTCALL', b'"_pyreturn_callback"': b'METH_FASTCALL', b'"_ccall_callback"': b'METH_FASTCALL', b'"_creturn_callback"': b'METH_FASTCALL'}
+/home/yang/Desktop/summer/cpython/Modules/_codecsmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_struct.c
+{b'"__length_hint__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Modules/pwdmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_winapi.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/tkappinit.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_weakref.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_statisticsmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/sha2module.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_typingmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/zlibmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/selectmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/itertoolsmodule.c
+{b'"__copy__"': b'METH_NOARGS', b'"__class_getitem__"': b'Py_GenericAlias', b'"__sizeof__"': b'METH_NOARGS', b'"__length_hint__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Modules/_localemodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/getbuildinfo.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_interpqueuesmodule.c
+{b'"create"': b'queuesmod_create_doc', b'"destroy"': b'queuesmod_destroy_doc', b'"list_all"': b'queuesmod_list_all', b'"put"': b'queuesmod_put_doc', b'"get"': b'queuesmod_get_doc', b'"bind"': b'queuesmod_bind_doc', b'"release"': b'queuesmod_release_doc', b'"get_maxsize"': b'queuesmod_get_maxsize_doc', b'"get_queue_defaults"': b'queuesmod_get_queue_defaults_doc', b'"is_full"': b'queuesmod_is_full_doc', b'"get_count"': b'queuesmod_get_count_doc'}
+/home/yang/Desktop/summer/cpython/Modules/_posixsubprocess.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testinternalcapi.c
+{b'"get_configs"': b'get_configs', b'"get_recursion_depth"': b'get_recursion_depth', b'"get_c_recursion_remaining"': b'get_c_recursion_remaining', b'"test_bswap"': b'test_bswap', b'"test_popcount"': b'test_popcount', b'"test_bit_length"': b'test_bit_length', b'"test_hashtable"': b'test_hashtable', b'"get_config"': b'test_get_config', b'"set_config"': b'test_set_config', b'"reset_path_config"': b'test_reset_path_config', b'"test_edit_cost"': b'test_edit_cost', b'"test_bytes_find"': b'test_bytes_find', b'"normalize_path"': b'normalize_path', b'"get_getpath_codeobject"': b'get_getpath_codeobject', b'"EncodeLocaleEx"': b'encode_locale_ex', b'"DecodeLocaleEx"': b'decode_locale_ex', b'"set_eval_frame_default"': b'set_eval_frame_default', b'"set_eval_frame_record"': b'set_eval_frame_record', b'"get_interp_settings"': b'get_interp_settings', b'"clear_extension"': b'clear_extension', b'"write_perf_map_entry"': b'write_perf_map_entry', b'"perf_map_state_teardown"': b'perf_map_state_teardown', b'"iframe_getcode"': b'iframe_getcode', b'"iframe_getline"': b'iframe_getline', b'"iframe_getlasti"': b'iframe_getlasti', b'"get_co_framesize"': b'get_co_framesize', b'"get_optimizer"': b'get_optimizer', b'"set_optimizer"': b'set_optimizer', b'"new_counter_optimizer"': b'new_counter_optimizer', b'"new_uop_optimizer"': b'new_uop_optimizer', b'"add_executor_dependency"': b'add_executor_dependency', b'"invalidate_executors"': b'invalidate_executors', b'"pending_identify"': b'pending_identify', b'"_PyTraceMalloc_GetTraceback"': b'tracemalloc_get_traceback', b'"test_tstate_capi"': b'test_tstate_capi', b'"_PyUnicode_TransformDecimalAndSpaceToASCII"': b'unicode_transformdecimalandspacetoascii', b'"test_atexit"': b'test_atexit', b'"check_pyobject_forbidden_bytes_is_freed"': b'check_pyobject_forbidden_bytes_is_freed', b'"check_pyobject_freed_is_freed"': b'check_pyobject_freed_is_freed', b'"check_pyobject_null_is_freed"': b'check_pyobject_null_is_freed', b'"check_pyobject_uninitialized_is_freed"': b'check_pyobject_uninitialized_is_freed', b'"pymem_getallocatorsname"': b'test_pymem_getallocatorsname', b'"get_object_dict_values"': b'get_object_dict_values', b'"hamt"': b'new_hamt', b'"dict_getitem_knownhash"': b'dict_getitem_knownhash', b'"normalize_interp_id"': b'normalize_interp_id', b'"next_interpreter_id"': b'next_interpreter_id', b'"unused_interpreter_id"': b'unused_interpreter_id', b'"interpreter_exists"': b'interpreter_exists', b'"get_interpreter_refcount"': b'get_interpreter_refcount', b'"link_interpreter_refcount"': b'link_interpreter_refcount', b'"unlink_interpreter_refcount"': b'unlink_interpreter_refcount', b'"interpreter_refcount_linked"': b'interpreter_refcount_linked', b'"compile_perf_trampoline_entry"': b'compile_perf_trampoline_entry', b'"perf_trampoline_set_persist_after_fork"': b'perf_trampoline_set_persist_after_fork', b'"get_crossinterp_data"': b'get_crossinterp_data', b'"restore_crossinterp_data"': b'restore_crossinterp_data', b'"get_rare_event_counters"': b'get_rare_event_counters', b'"reset_rare_event_counters"': b'reset_rare_event_counters', b'"has_inline_values"': b'has_inline_values', b'"py_thread_id"': b'get_py_thread_id', b'"set_immortalize_deferred"': b'set_immortalize_deferred', b'"get_immortalize_deferred"': b'get_immortalize_deferred', b'"uop_symbols_test"': b'_Py_uop_symbols_test'}
+/home/yang/Desktop/summer/cpython/Modules/_asynciomodule.c
+{b'"__class_getitem__"': b'Py_GenericAlias', b'"send"': b'METH_O', b'"throw"': b'METH_FASTCALL', b'"close"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_dbmmodule.c
+{b'"__enter__"': b'dbm__enter__', b'"__exit__"': b'dbm__exit__'}
+/home/yang/Desktop/summer/cpython/Modules/faulthandler.c
+{b'"disable"': b'faulthandler_disable_py', b'"is_enabled"': b'faulthandler_is_enabled', b'"cancel_dump_traceback_later"': b'faulthandler_cancel_dump_traceback_later_py', b'"unregister"': b'METH_VARARGS', b'"_read_null"': b'faulthandler_read_null', b'"_sigsegv"': b'faulthandler_sigsegv', b'"_fatal_error_c_thread"': b'faulthandler_fatal_error_c_thread', b'"_sigabrt"': b'faulthandler_sigabrt', b'"_sigfpe"': b'METH_NOARGS', b'"_stack_overflow"': b'faulthandler_stack_overflow', b'"_raise_exception"': b'faulthandler_raise_exception'}
+/home/yang/Desktop/summer/cpython/Modules/rotatingtree.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/syslogmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/signalmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/cmathmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testcapimodule.c
+{b'"set_errno"': b'set_errno', b'"test_config"': b'test_config', b'"test_sizeof_c_types"': b'test_sizeof_c_types', b'"test_list_api"': b'test_list_api', b'"test_dict_iteration"': b'test_dict_iteration', b'"test_lazy_hash_inheritance"': b'test_lazy_hash_inheritance', b'"test_xincref_doesnt_leak"': b'test_xincref_doesnt_leak', b'"test_incref_doesnt_leak"': b'test_incref_doesnt_leak', b'"test_xdecref_doesnt_leak"': b'test_xdecref_doesnt_leak', b'"test_decref_doesnt_leak"': b'test_decref_doesnt_leak', b'"test_structseq_newtype_doesnt_leak"': b'test_structseq_newtype_doesnt_leak', b'"test_structseq_newtype_null_descr_doc"': b'test_structseq_newtype_null_descr_doc', b'"test_incref_decref_API"': b'test_incref_decref_API', b'"pyobject_repr_from_null"': b'pyobject_repr_from_null', b'"pyobject_str_from_null"': b'pyobject_str_from_null', b'"pyobject_bytes_from_null"': b'pyobject_bytes_from_null', b'"test_string_to_double"': b'test_string_to_double', b'"test_capsule"': b'METH_NOARGS', b'"test_from_contiguous"': b'METH_NOARGS', b'"test_pep3118_obsolete_write_locks"': b'METH_NOARGS', b'"getbuffer_with_null_view"': b'getbuffer_with_null_view', b'"PyBuffer_SizeFromFormat"': b'test_PyBuffer_SizeFromFormat', b'"py_buildvalue"': b'py_buildvalue', b'"py_buildvalue_ints"': b'py_buildvalue_ints', b'"test_buildvalue_N"': b'test_buildvalue_N', b'"test_get_statictype_slots"': b'test_get_statictype_slots', b'"get_heaptype_for_name"': b'get_heaptype_for_name', b'"get_type_name"': b'get_type_name', b'"get_type_qualname"': b'get_type_qualname', b'"get_type_fullyqualname"': b'get_type_fullyqualname', b'"get_type_module_name"': b'get_type_module_name', b'"test_get_type_dict"': b'test_get_type_dict', b'"test_reftracer"': b'test_reftracer', b'"_test_thread_state"': b'test_thread_state', b'"gilstate_ensure_release"': b'gilstate_ensure_release', b'"_spawn_pthread_waiter"': b'spawn_pthread_waiter', b'"_end_spawned_pthread"': b'end_spawned_pthread', b'"profile_int"': b'profile_int', b'"argparsing"': b'argparsing', b'"code_newempty"': b'code_newempty', b'"eval_code_ex"': b'eval_eval_code_ex', b'"make_memoryview_from_NULL_pointer"': b'make_memoryview_from_NULL_pointer', b'"buffer_fill_info"': b'buffer_fill_info', b'"crash_no_current_thread"': b'crash_no_current_thread', b'"test_current_tstate_matches"': b'test_current_tstate_matches', b'"run_in_subinterp"': b'run_in_subinterp', b'"create_cfunction"': b'create_cfunction', b'"call_in_temporary_c_thread"': b'call_in_temporary_c_thread', b'"join_temporary_c_thread"': b'join_temporary_c_thread', b'"pymarshal_write_long_to_file"': b'pymarshal_write_long_to_file', b'"pymarshal_write_object_to_file"': b'pymarshal_write_object_to_file', b'"pymarshal_read_short_from_file"': b'pymarshal_read_short_from_file', b'"pymarshal_read_long_from_file"': b'pymarshal_read_long_from_file', b'"pymarshal_read_last_object_from_file"': b'pymarshal_read_last_object_from_file', b'"pymarshal_read_object_from_file"': b'pymarshal_read_object_from_file', b'"return_null_without_error"': b'return_null_without_error', b'"return_result_with_error"': b'return_result_with_error', b'"getitem_with_error"': b'getitem_with_error', b'"Py_CompileString"': b'pycompilestring', b'"dict_get_version"': b'dict_get_version', b'"raise_SIGINT_then_send_None"': b'raise_SIGINT_then_send_None', b'"stack_pointer"': b'stack_pointer', b'"W_STOPCODE"': b'py_w_stopcode', b'"test_pythread_tss_key_state"': b'test_pythread_tss_key_state', b'"bad_get"': b'bad_get', b'"negative_refcount"': b'negative_refcount', b'"decref_freed_object"': b'decref_freed_object', b'"meth_varargs"': b'meth_varargs', b'"meth_o"': b'meth_o', b'"meth_noargs"': b'meth_noargs', b'"meth_fastcall"': b'METH_FASTCALL', b'"pycfunction_call"': b'test_pycfunction_call', b'"pynumber_tobase"': b'pynumber_tobase', b'"test_set_type_size"': b'test_set_type_size', b'"test_py_clear"': b'test_py_clear', b'"test_py_setref"': b'test_py_setref', b'"test_refcount_macros"': b'test_refcount_macros', b'"test_refcount_funcs"': b'test_refcount_funcs', b'"test_py_is_macros"': b'test_py_is_macros', b'"test_py_is_funcs"': b'test_py_is_funcs', b'"type_get_version"': b'type_get_version', b'"type_modified"': b'type_modified', b'"type_assign_specific_version_unsafe"': b'type_assign_specific_version_unsafe', b'"type_assign_version"': b'type_assign_version', b'"type_get_tp_bases"': b'type_get_tp_bases', b'"type_get_tp_mro"': b'type_get_tp_mro', b'"get_basic_static_type"': b'get_basic_static_type', b'"test_tstate_capi"': b'test_tstate_capi', b'"frame_getlocals"': b'frame_getlocals', b'"frame_getglobals"': b'frame_getglobals', b'"frame_getgenerator"': b'frame_getgenerator', b'"frame_getbuiltins"': b'frame_getbuiltins', b'"frame_getlasti"': b'frame_getlasti', b'"frame_new"': b'frame_new', b'"frame_getvar"': b'test_frame_getvar', b'"frame_getvarstring"': b'test_frame_getvarstring', b'"eval_get_func_name"': b'eval_get_func_name', b'"eval_get_func_desc"': b'eval_get_func_desc', b'"gen_get_code"': b'gen_get_code', b'"get_feature_macros"': b'get_feature_macros', b'"test_code_api"': b'test_code_api', b'"settrace_to_error"': b'settrace_to_error', b'"settrace_to_record"': b'settrace_to_record', b'"test_macros"': b'test_macros', b'"clear_managed_dict"': b'clear_managed_dict', b'"function_get_code"': b'function_get_code', b'"function_get_globals"': b'function_get_globals', b'"function_get_module"': b'function_get_module', b'"function_get_defaults"': b'function_get_defaults', b'"function_set_defaults"': b'function_set_defaults', b'"function_get_kw_defaults"': b'function_get_kw_defaults', b'"function_set_kw_defaults"': b'function_set_kw_defaults', b'"function_get_closure"': b'function_get_closure', b'"function_set_closure"': b'function_set_closure', b'"check_pyimport_addmodule"': b'check_pyimport_addmodule', b'"test_weakref_capi"': b'test_weakref_capi', b'"function_set_warning"': b'function_set_warning', b'"__mro_entries__"': b'METH_O', b'"__class_getitem__"': b'generic_class_getitem'}
+/home/yang/Desktop/summer/cpython/Modules/_testmultiphase.c
+{b'"demo"': b'METH_VARARGS', b'"increment_count_noclinic"': b'_StateAccessType_decrement_count__doc__', b'"foo"': b'testexport_foo', b'"call_state_registration_func"': b'call_state_registration_func', b'"bar"': b'nonmodule_bar'}
+/home/yang/Desktop/summer/cpython/Modules/_testclinic.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/getpath.c
+{b'"abspath"': b'getpath_abspath', b'"basename"': b'getpath_basename', b'"dirname"': b'getpath_dirname', b'"hassuffix"': b'getpath_hassuffix', b'"isabs"': b'getpath_isabs', b'"isdir"': b'getpath_isdir', b'"isfile"': b'getpath_isfile', b'"isxfile"': b'getpath_isxfile', b'"joinpath"': b'getpath_joinpath', b'"readlines"': b'getpath_readlines', b'"realpath"': b'getpath_realpath'}
+/home/yang/Desktop/summer/cpython/Modules/_tkinter.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_tracemalloc.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/gcmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_json.c
+{b'"encode_basestring_ascii"': b'METH_O', b'"encode_basestring"': b'METH_O', b'"scanstring"': b'METH_VARARGS'}
+/home/yang/Desktop/summer/cpython/Modules/getpath_noop.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/mmapmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/grpmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/fcntlmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/socketmodule.c
+{b'"gethostbyname"': b'socket_gethostbyname', b'"gethostbyname_ex"': b'socket_gethostbyname_ex', b'"gethostbyaddr"': b'socket_gethostbyaddr', b'"gethostname"': b'socket_gethostname', b'"sethostname"': b'socket_sethostname', b'"getservbyname"': b'socket_getservbyname', b'"getservbyport"': b'socket_getservbyport', b'"getprotobyname"': b'socket_getprotobyname', b'"close"': b'socket_close', b'"dup"': b'socket_dup', b'"socketpair"': b'socket_socketpair', b'"ntohl"': b'socket_ntohl'}
+/home/yang/Desktop/summer/cpython/Modules/termios.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/sha3module.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_pickle.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_suggestions.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/unicodedata.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/getaddrinfo.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/readline.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/getnameinfo.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/xxlimited.c
+{b'"foo"': b'xx_foo', b'"new"': b'xx_new'}
+/home/yang/Desktop/summer/cpython/Modules/_threadmodule.c
+{b'"join"': b'METH_VARARGS', b'"_set_done"': b'METH_NOARGS', b'"is_done"': b'METH_NOARGS', b'"acquire_lock"': b'acquire_lock_doc', b'"acquire"': b'rlock_acquire_doc', b'"release_lock"': b'METH_NOARGS', b'"release"': b'METH_NOARGS', b'"locked_lock"': b'METH_NOARGS', b'"locked"': b'METH_NOARGS', b'"__enter__"': b'rlock_enter_doc', b'"__exit__"': b'METH_VARARGS', b'"_at_fork_reinit"': b'METH_NOARGS', b'"_is_owned"': b'METH_NOARGS', b'"_acquire_restore"': b'METH_VARARGS', b'"_release_save"': b'METH_NOARGS', b'"_recursion_count"': b'METH_NOARGS', b'"start_new_thread"': b'METH_VARARGS', b'"start_new"': b'METH_VARARGS', b'"start_joinable_thread"': b'start_joinable_doc', b'"daemon_threads_allowed"': b'METH_NOARGS', b'"allocate_lock"': b'thread_PyThread_allocate_lock', b'"allocate"': b'thread_PyThread_allocate_lock', b'"exit_thread"': b'thread_PyThread_exit_thread', b'"exit"': b'thread_PyThread_exit_thread', b'"interrupt_main"': b'METH_VARARGS', b'"get_ident"': b'thread_get_ident', b'"get_native_id"': b'thread_get_native_id', b'"_count"': b'thread__count', b'"stack_size"': b'METH_VARARGS', b'"_excepthook"': b'thread_excepthook', b'"_is_main_interpreter"': b'thread__is_main_interpreter', b'"_shutdown"': b'thread_shutdown', b'"_make_thread_handle"': b'thread__make_thread_handle', b'"_get_main_thread_ident"': b'thread__get_main_thread_ident'}
+/home/yang/Desktop/summer/cpython/Modules/sha1module.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_bisectmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/atexitmodule.c
+{b'"register"': b'atexit_register__doc__', b'"_clear"': b'METH_NOARGS', b'"unregister"': b'METH_O', b'"_run_exitfuncs"': b'METH_NOARGS', b'"_ncallbacks"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Modules/binascii.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_elementtree.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testexternalinspection.c
+{b'"get_stack_trace"': b'get_stack_trace'}
+/home/yang/Desktop/summer/cpython/Modules/symtablemodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/xxlimited_35.c
+{b'"demo"': b'METH_VARARGS', b'"roj"': b'xx_roj', b'"foo"': b'xx_foo', b'"new"': b'xx_new'}
+/home/yang/Desktop/summer/cpython/Modules/_zoneinfo.c
+{b'"fromutc"': b'METH_O', b'"__reduce__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Modules/_queuemodule.c
+{b'"__class_getitem__"': b'Py_GenericAlias'}
+/home/yang/Desktop/summer/cpython/Modules/_datetimemodule.c
+{b'"total_seconds"': b'delta_total_seconds', b'"__reduce__"': b'METH_NOARGS', b'"ctime"': b'METH_NOARGS', b'"__format__"': b'METH_VARARGS', b'"timetuple"': b'METH_NOARGS', b'"isocalendar"': b'METH_NOARGS', b'"isoformat"': b'METH_NOARGS', b'"isoweekday"': b'METH_NOARGS', b'"toordinal"': b'METH_NOARGS', b'"weekday"': b'METH_NOARGS', b'"tzname"': b'METH_NOARGS', b'"utcoffset"': b'METH_NOARGS', b'"dst"': b'METH_NOARGS', b'"fromutc"': b'METH_O', b'"__getinitargs__"': b'METH_NOARGS', b'"__reduce_ex__"': b'METH_VARARGS', b'"date"': b'METH_NOARGS', b'"time"': b'METH_NOARGS', b'"timetz"': b'METH_NOARGS', b'"timestamp"': b'METH_NOARGS', b'"utctimetuple"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Modules/_testclinic_limited.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/xxmodule.c
+{b'"demo"': b'METH_VARARGS', b'"roj"': b'xx_roj', b'"foo"': b'xx_foo', b'"new"': b'xx_new', b'"bug"': b'xx_bug'}
+/home/yang/Desktop/summer/cpython/Modules/main.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testsinglephase.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_operator.c
+{b'"__reduce__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Modules/timemodule.c
+{b'"time"': b'time_time', b'"time_ns"': b'time_time_ns', b'"clock_settime"': b'time_clock_settime', b'"clock_settime_ns"': b'time_clock_settime_ns', b'"clock_getres"': b'time_clock_getres', b'"pthread_getcpuclockid"': b'time_pthread_getcpuclockid', b'"sleep"': b'time_sleep', b'"gmtime"': b'time_gmtime', b'"localtime"': b'time_localtime', b'"asctime"': b'time_asctime', b'"ctime"': b'time_ctime', b'"mktime"': b'time_mktime', b'"strftime"': b'time_strftime', b'"strptime"': b'time_strptime', b'"tzset"': b'time_tzset', b'"monotonic"': b'time_monotonic', b'"monotonic_ns"': b'time_monotonic_ns', b'"process_time"': b'time_process_time', b'"process_time_ns"': b'time_process_time_ns', b'"thread_time"': b'time_thread_time', b'"thread_time_ns"': b'time_thread_time_ns', b'"perf_counter"': b'time_perf_counter', b'"perf_counter_ns"': b'time_perf_counter_ns', b'"get_clock_info"': b'time_get_clock_info'}
+/home/yang/Desktop/summer/cpython/Modules/_lzmamodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/errnomodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_abc.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_heapqmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_sysconfig.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_collectionsmodule.c
+{b'"__class_getitem__"': b'Py_GenericAlias', b'"__length_hint__"': b'METH_NOARGS', b'"__reduce__"': b'METH_NOARGS', b'"__missing__"': b'METH_O', b'"copy"': b'METH_NOARGS', b'"__copy__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Modules/_hashopenssl.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_gdbmmodule.c
+{b'"__enter__"': b'gdbm__enter__', b'"__exit__"': b'gdbm__exit__'}
+/home/yang/Desktop/summer/cpython/Modules/_contextvarsmodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_randommodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/arraymodule.c
+{b'"__class_getitem__"': b'Py_GenericAlias'}
+/home/yang/Desktop/summer/cpython/Modules/_testimportmultiple.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_ssl.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_curses_panel.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_bz2module.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/cjkcodecs/_codecs_iso2022.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/cjkcodecs/_codecs_tw.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/cjkcodecs/_codecs_cn.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/cjkcodecs/_codecs_jp.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/cjkcodecs/_codecs_kr.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/cjkcodecs/_codecs_hk.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/cjkcodecs/multibytecodec.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_ssl/cert.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_ssl/misc.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_ssl/debughelpers.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_blake2/blake2b_impl.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_blake2/blake2module.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_blake2/blake2s_impl.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_blake2/impl/blake2b-ref.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_blake2/impl/blake2b.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_blake2/impl/blake2s.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_blake2/impl/blake2s-ref.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_xxtestfuzz/_xxtestfuzz.c
+{b'"run"': b'METH_VARARGS'}
+/home/yang/Desktop/summer/cpython/Modules/_xxtestfuzz/fuzzer.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/expat/xmltok_ns.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/expat/xmltok.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/expat/xmlparse.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/expat/xmltok_impl.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/expat/xmlrole.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_sqlite/cursor.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_sqlite/connection.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_sqlite/row.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_sqlite/module.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_sqlite/blob.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_sqlite/statement.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_sqlite/prepare_protocol.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_sqlite/util.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_sqlite/microprotocols.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_io/bytesio.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_io/bufferedio.c
+{b'"__reduce__"': b'_PyIOBase_cannot_pickle', b'"__reduce_ex__"': b'_PyIOBase_cannot_pickle', b'"read"': b'METH_VARARGS', b'"peek"': b'METH_VARARGS', b'"read1"': b'METH_VARARGS', b'"readinto"': b'METH_VARARGS', b'"readinto1"': b'METH_VARARGS', b'"write"': b'METH_VARARGS', b'"flush"': b'METH_NOARGS', b'"readable"': b'METH_NOARGS', b'"writable"': b'METH_NOARGS', b'"close"': b'METH_NOARGS', b'"isatty"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Modules/_io/iobase.c
+{b'"_checkClosed"': b'_PyIOBase_check_closed', b'"_checkSeekable"': b'iobase_check_seekable', b'"_checkReadable"': b'iobase_check_readable', b'"_checkWritable"': b'iobase_check_writable', b'"__enter__"': b'iobase_enter', b'"__exit__"': b'iobase_exit', b'"readinto"': b'rawiobase_readinto', b'"write"': b'rawiobase_write'}
+/home/yang/Desktop/summer/cpython/Modules/_io/_iomodule.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_io/textio.c
+{b'"__reduce__"': b'_PyIOBase_cannot_pickle', b'"__reduce_ex__"': b'_PyIOBase_cannot_pickle'}
+/home/yang/Desktop/summer/cpython/Modules/_io/stringio.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_io/winconsoleio.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_io/fileio.c
+{b'"_dealloc_warn"': b'METH_O', b'"__reduce__"': b'_PyIOBase_cannot_pickle', b'"__reduce_ex__"': b'_PyIOBase_cannot_pickle'}
+/home/yang/Desktop/summer/cpython/Modules/_testinternalcapi/test_critical_sections.c
+{b'"test_critical_sections"': b'test_critical_sections', b'"test_critical_sections_nest"': b'test_critical_sections_nest', b'"test_critical_sections_suspend"': b'test_critical_sections_suspend', b'"test_critical_sections_threads"': b'test_critical_sections_threads', b'"test_critical_sections_gc"': b'test_critical_sections_gc'}
+/home/yang/Desktop/summer/cpython/Modules/_testinternalcapi/pytime.c
+{b'"_PyTime_AsMicroseconds"': b'test_PyTime_AsMicroseconds', b'"_PyTime_AsMilliseconds"': b'test_PyTime_AsMilliseconds', b'"_PyTime_AsTimespec"': b'test_PyTime_AsTimespec', b'"_PyTime_AsTimespec_clamp"': b'test_PyTime_AsTimespec_clamp', b'"_PyTime_AsTimeval"': b'test_PyTime_AsTimeval', b'"_PyTime_AsTimeval_clamp"': b'test_PyTime_AsTimeval_clamp', b'"_PyTime_FromSeconds"': b'test_pytime_fromseconds', b'"_PyTime_FromSecondsObject"': b'test_pytime_fromsecondsobject', b'"_PyTime_ObjectToTime_t"': b'test_pytime_object_to_time_t', b'"_PyTime_ObjectToTimespec"': b'test_pytime_object_to_timespec', b'"_PyTime_ObjectToTimeval"': b'test_pytime_object_to_timeval'}
+/home/yang/Desktop/summer/cpython/Modules/_testinternalcapi/test_lock.c
+{b'"test_lock_basic"': b'test_lock_basic', b'"test_lock_two_threads"': b'test_lock_two_threads', b'"test_lock_counter"': b'test_lock_counter', b'"test_lock_counter_slow"': b'test_lock_counter_slow', b'"test_lock_benchmark"': b'test_lock_benchmark', b'"test_lock_once"': b'test_lock_once', b'"test_lock_rwlock"': b'test_lock_rwlock'}
+/home/yang/Desktop/summer/cpython/Modules/_testinternalcapi/set.c
+{b'"set_update"': b'set_update', b'"set_next_entry"': b'set_next_entry'}
+/home/yang/Desktop/summer/cpython/Modules/_hacl/Hacl_Hash_MD5.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_hacl/Hacl_Hash_SHA3.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_hacl/Hacl_Hash_SHA2.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_hacl/Hacl_Hash_SHA1.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_sre/sre.c
+{b'"__class_getitem__"': b'Py_GenericAlias', b'"group"': b'METH_VARARGS'}
+/home/yang/Desktop/summer/cpython/Modules/_multiprocessing/multiprocessing.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_multiprocessing/semaphore.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_multiprocessing/posixshmem.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/_decimal.c
+{b'"copy"': b'METH_NOARGS', b'"__enter__"': b'METH_NOARGS', b'"__exit__"': b'METH_VARARGS', b'"exp"': b'ctx_mpd_qexp', b'"ln"': b'ctx_mpd_qln', b'"log10"': b'ctx_mpd_qlog10', b'"next_minus"': b'ctx_mpd_qnext_minus', b'"next_plus"': b'ctx_mpd_qnext_plus', b'"normalize"': b'ctx_mpd_qreduce', b'"to_integral"': b'ctx_mpd_qround_to_int', b'"to_integral_exact"': b'ctx_mpd_qround_to_intx', b'"to_integral_value"': b'ctx_mpd_qround_to_int', b'"sqrt"': b'ctx_mpd_qsqrt', b'"compare"': b'ctx_mpd_qcompare', b'"compare_signal"': b'ctx_mpd_qcompare_signal', b'"max"': b'ctx_mpd_qmax', b'"max_mag"': b'ctx_mpd_qmax_mag', b'"min"': b'ctx_mpd_qmin', b'"min_mag"': b'ctx_mpd_qmin_mag', b'"next_toward"': b'ctx_mpd_qnext_toward', b'"quantize"': b'ctx_mpd_qquantize', b'"remainder_near"': b'ctx_mpd_qrem_near', b'"fma"': b'ctx_mpd_qfma', b'"is_canonical"': b'ctx_iscanonical', b'"is_finite"': b'ctx_mpd_isfinite', b'"is_infinite"': b'ctx_mpd_isinfinite', b'"is_nan"': b'ctx_mpd_isnan', b'"is_qnan"': b'ctx_mpd_isqnan', b'"is_snan"': b'ctx_mpd_issnan', b'"is_signed"': b'ctx_mpd_issigned', b'"is_zero"': b'ctx_mpd_iszero', b'"is_normal"': b'ctx_mpd_isnormal', b'"is_subnormal"': b'ctx_mpd_issubnormal', b'"adjusted"': b'dec_mpd_adjexp', b'"canonical"': b'ctx_canonical', b'"conjugate"': b'dec_conjugate', b'"radix"': b'ctx_mpd_radix', b'"copy_abs"': b'ctx_mpd_qcopy_abs', b'"copy_negate"': b'ctx_mpd_qcopy_negate', b'"logb"': b'ctx_mpd_qlogb', b'"logical_invert"': b'ctx_mpd_qinvert', b'"number_class"': b'ctx_mpd_class', b'"to_eng_string"': b'ctx_mpd_to_eng', b'"compare_total"': b'ctx_mpd_compare_total', b'"compare_total_mag"': b'ctx_mpd_compare_total_mag', b'"copy_sign"': b'ctx_mpd_qcopy_sign', b'"same_quantum"': b'ctx_mpd_same_quantum', b'"logical_and"': b'ctx_mpd_qand', b'"logical_or"': b'ctx_mpd_qor', b'"logical_xor"': b'ctx_mpd_qxor', b'"rotate"': b'ctx_mpd_qrotate', b'"scaleb"': b'ctx_mpd_qscaleb', b'"shift"': b'ctx_mpd_qshift', b'"from_float"': b'dec_from_float', b'"as_tuple"': b'PyDec_AsTuple', b'"as_integer_ratio"': b'dec_as_integer_ratio', b'"__copy__"': b'METH_NOARGS', b'"__deepcopy__"': b'dec_copy', b'"__format__"': b'dec_format', b'"__reduce__"': b'context_reduce', b'"__round__"': b'PyDec_Round', b'"__ceil__"': b'dec_ceil', b'"__floor__"': b'dec_floor', b'"__trunc__"': b'dec_trunc', b'"__complex__"': b'dec_complex', b'"__sizeof__"': b'dec_sizeof', b'"abs"': b'ctx_mpd_qabs', b'"minus"': b'ctx_mpd_qminus', b'"plus"': b'ctx_mpd_qplus', b'"add"': b'ctx_mpd_qadd', b'"divide"': b'ctx_mpd_qdiv', b'"divide_int"': b'ctx_mpd_qdivint', b'"divmod"': b'ctx_mpd_qdivmod', b'"multiply"': b'ctx_mpd_qmul', b'"remainder"': b'ctx_mpd_qrem', b'"subtract"': b'ctx_mpd_qsub', b'"power"': b'doc_ctx_power', b'"Etiny"': b'context_getetiny', b'"Etop"': b'context_getetop', b'"_apply"': b'PyDecContext_Apply', b'"apply"': b'PyDecContext_Apply', b'"copy_decimal"': b'ctx_copy_decimal', b'"to_sci_string"': b'ctx_mpd_to_sci', b'"clear_flags"': b'context_clear_flags', b'"clear_traps"': b'context_clear_traps', b'"_unsafe_setprec"': b'context_unsafe_setprec', b'"_unsafe_setemin"': b'context_unsafe_setemin', b'"_unsafe_setemax"': b'context_unsafe_setemax', b'"create_decimal"': b'ctx_create_decimal', b'"create_decimal_from_float"': b'ctx_from_float', b'"getcontext"': b'METH_NOARGS', b'"setcontext"': b'METH_O', b'"localcontext"': b'doc_localcontext', b'"IEEEContext"': b'METH_O'}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/context.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/basearith.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/constants.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/bench_full.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/mpdecimal.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/crt.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/mpsignal.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/fnt.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/mpalloc.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/transpose.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/convolute.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/fourstep.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/numbertheory.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/sixstep.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/difradix2.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/io.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/bench.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/examples/pow.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/examples/div.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/examples/divmod.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/examples/shift.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/examples/compare.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/examples/powmod.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/examples/sqrt.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_decimal/libmpdec/examples/multiply.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_ctypes/stgdict.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_ctypes/callproc.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_ctypes/callbacks.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_ctypes/_ctypes_test.c
+{b'"func_si"': b'py_func_si', b'"func"': b'py_func', b'"get_generated_test_data"': b'get_generated_test_data'}
+/home/yang/Desktop/summer/cpython/Modules/_ctypes/malloc_closure.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_ctypes/cfield.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_ctypes/_ctypes.c
+{b'"__ctypes_from_outparam__"': b'PyCData_from_outparam', b'"__setstate__"': b'PyCData_setstate', b'"__class_getitem__"': b'Py_GenericAlias'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/dict.c
+{b'"dict_containsstring"': b'dict_containsstring', b'"dict_getitemref"': b'dict_getitemref', b'"dict_getitemstringref"': b'dict_getitemstringref', b'"dict_setdefault"': b'dict_setdefault', b'"dict_setdefaultref"': b'dict_setdefaultref', b'"dict_pop"': b'dict_pop', b'"dict_pop_null"': b'dict_pop_null', b'"dict_popstring"': b'dict_popstring', b'"dict_popstring_null"': b'dict_popstring_null', b'"dict_version"': b'dict_version'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/exceptions.c
+{b'"err_restore"': b'err_restore', b'"err_writeunraisable"': b'err_writeunraisable', b'"err_formatunraisable"': b'err_formatunraisable'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/list.c
+{b'"list_get_size"': b'list_get_size', b'"list_get_item"': b'list_get_item', b'"list_set_item"': b'list_set_item', b'"list_clear"': b'list_clear', b'"list_extend"': b'list_extend'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/gc.c
+{b'"test_gc_control"': b'test_gc_control', b'"test_gc_visit_objects_basic"': b'test_gc_visit_objects_basic', b'"test_gc_visit_objects_exit_early"': b'test_gc_visit_objects_exit_early', b'"without_gc"': b'without_gc', b'"with_tp_del"': b'with_tp_del'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/pyatomic.c
+{b'"test_atomic_fences"': b'test_atomic_fences', b'"test_atomic_release_acquire"': b'test_atomic_release_acquire', b'"test_atomic_load_store_int_release_acquire"': b'test_atomic_load_store_int_release_acquire'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/watchers.c
+{b'"add_dict_watcher"': b'add_dict_watcher', b'"clear_dict_watcher"': b'clear_dict_watcher', b'"get_dict_watcher_events"': b'METH_NOARGS', b'"add_type_watcher"': b'add_type_watcher', b'"clear_type_watcher"': b'clear_type_watcher', b'"get_type_modified_events"': b'METH_NOARGS', b'"add_code_watcher"': b'add_code_watcher', b'"clear_code_watcher"': b'clear_code_watcher', b'"get_code_watcher_num_created_events"': b'get_code_watcher_num_created_events', b'"get_code_watcher_num_destroyed_events"': b'get_code_watcher_num_destroyed_events', b'"allocate_too_many_code_watchers"': b'METH_NOARGS', b'"add_func_watcher"': b'add_func_watcher', b'"clear_func_watcher"': b'clear_func_watcher', b'"allocate_too_many_func_watchers"': b'allocate_too_many_func_watchers'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/object.c
+{b'"call_pyobject_print"': b'call_pyobject_print', b'"pyobject_print_null"': b'pyobject_print_null', b'"pyobject_print_noref_object"': b'pyobject_print_noref_object', b'"pyobject_print_os_error"': b'pyobject_print_os_error'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/set.c
+{b'"set_get_size"': b'set_get_size'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/mem.c
+{b'"pymem_api_misuse"': b'pymem_api_misuse', b'"pymem_buffer_overflow"': b'pymem_buffer_overflow', b'"pymem_malloc_without_gil"': b'pymem_malloc_without_gil', b'"pyobject_malloc_without_gil"': b'pyobject_malloc_without_gil', b'"remove_mem_hooks"': b'remove_mem_hooks', b'"set_nomemory"': b'METH_VARARGS', b'"test_pymem_alloc0"': b'test_pymem_alloc0', b'"test_pymem_setallocators"': b'test_pymem_setallocators', b'"test_pymem_setrawallocators"': b'test_pymem_setrawallocators', b'"test_pyobject_new"': b'test_pyobject_new', b'"test_pyobject_setallocators"': b'test_pyobject_setallocators', b'"tracemalloc_track"': b'tracemalloc_track', b'"tracemalloc_untrack"': b'tracemalloc_untrack'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/buffer.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/abstract.c
+{b'"object_getoptionalattr"': b'object_getoptionalattr', b'"object_getoptionalattrstring"': b'object_getoptionalattrstring', b'"object_hasattrwitherror"': b'object_hasattrwitherror', b'"object_hasattrstringwitherror"': b'object_hasattrstringwitherror', b'"mapping_getoptionalitem"': b'mapping_getoptionalitem', b'"mapping_getoptionalitemstring"': b'mapping_getoptionalitemstring'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/numbers.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/float.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/monitoring.c
+{b'"fire_event_py_start"': b'fire_event_py_start', b'"fire_event_py_resume"': b'fire_event_py_resume', b'"fire_event_py_return"': b'fire_event_py_return', b'"fire_event_c_return"': b'fire_event_c_return', b'"fire_event_py_yield"': b'fire_event_py_yield', b'"fire_event_call"': b'fire_event_call', b'"fire_event_line"': b'fire_event_line', b'"fire_event_jump"': b'fire_event_jump', b'"fire_event_branch"': b'fire_event_branch', b'"fire_event_py_throw"': b'fire_event_py_throw', b'"fire_event_raise"': b'fire_event_raise', b'"fire_event_c_raise"': b'fire_event_c_raise', b'"fire_event_reraise"': b'fire_event_reraise', b'"fire_event_exception_handled"': b'fire_event_exception_handled', b'"fire_event_py_unwind"': b'fire_event_py_unwind', b'"fire_event_stop_iteration"': b'fire_event_stop_iteration', b'"monitoring_enter_scope"': b'enter_scope', b'"monitoring_exit_scope"': b'exit_scope'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/immortal.c
+{b'"test_immortal_builtins"': b'test_immortal_builtins', b'"test_immortal_small_ints"': b'test_immortal_small_ints'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/complex.c
+{b'"complex_fromccomplex"': b'complex_fromccomplex', b'"complex_asccomplex"': b'complex_asccomplex', b'"_py_c_sum"': b'_py_c_sum', b'"_py_c_diff"': b'_py_c_diff', b'"_py_c_neg"': b'_py_c_neg', b'"_py_c_prod"': b'_py_c_prod', b'"_py_c_quot"': b'_py_c_quot', b'"_py_c_pow"': b'_py_c_pow', b'"_py_c_abs"': b'_py_c_abs'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/docstring.c
+{b'"docstring_empty"': b'METH_VARARGS', b'"docstring_no_signature"': b'METH_VARARGS', b'"docstring_no_signature_noargs"': b'METH_NOARGS', b'"docstring_no_signature_o"': b'METH_O', b'"docstring_with_invalid_signature"': b'METH_VARARGS', b'"docstring_with_invalid_signature2"': b'METH_VARARGS', b'"docstring_with_signature"': b'METH_VARARGS', b'"docstring_with_signature_and_extra_newlines"': b'METH_VARARGS', b'"docstring_with_signature_but_no_doc"': b'METH_VARARGS', b'"docstring_with_signature_with_defaults"': b'METH_VARARGS', b'"no_docstring"': b'METH_VARARGS', b'"test_with_docstring"': b'test_with_docstring', b'"func_with_unrepresentable_signature"': b'METH_VARARGS', b'"meth_noargs"': b'METH_NOARGS', b'"meth_o"': b'METH_O', b'"meth_noargs_class"': b'docstring_no_signature', b'"meth_o_class"': b'docstring_no_signature', b'"meth_noargs_static"': b'docstring_no_signature', b'"meth_o_static"': b'docstring_no_signature', b'"meth_noargs_coexist"': b'docstring_no_signature', b'"meth_o_coexist"': b'docstring_no_signature', b'"meth"': b'METH_VARARGS', b'"with_default"': b'METH_VARARGS'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/tuple.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/file.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/long.c
+{b'"pylong_fromunicodeobject"': b'pylong_fromunicodeobject', b'"pylong_asnativebytes"': b'pylong_asnativebytes', b'"pylong_fromnativebytes"': b'pylong_fromnativebytes', b'"pylong_aspid"': b'pylong_aspid'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/hash.c
+{b'"hash_getfuncdef"': b'hash_getfuncdef', b'"hash_pointer"': b'hash_pointer', b'"object_generichash"': b'object_generichash'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/heaptype.c
+{b'"pytype_fromspec_meta"': b'pytype_fromspec_meta', b'"test_type_from_ephemeral_spec"': b'test_type_from_ephemeral_spec', b'"create_type_from_repeated_slots"': b'create_type_from_repeated_slots', b'"test_from_spec_metatype_inheritance"': b'test_from_spec_metatype_inheritance', b'"test_from_spec_invalid_metatype_inheritance"': b'test_from_spec_invalid_metatype_inheritance', b'"make_immutable_type_with_base"': b'make_immutable_type_with_base', b'"make_type_with_base"': b'make_type_with_base', b'"pyobject_getitemdata"': b'pyobject_getitemdata'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/structmember.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/time.c
+{b'"PyTime_AsSecondsDouble"': b'test_pytime_assecondsdouble', b'"PyTime_Monotonic"': b'test_pytime_monotonic', b'"PyTime_MonotonicRaw"': b'test_pytime_monotonic_raw', b'"PyTime_PerfCounter"': b'test_pytime_perf_counter', b'"PyTime_PerfCounterRaw"': b'test_pytime_perf_counter_raw', b'"PyTime_Time"': b'test_pytime_time', b'"PyTime_TimeRaw"': b'test_pytime_time_raw'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/codec.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/datetime.c
+{b'"PyDateTime_DATE_GET"': b'test_PyDateTime_DATE_GET', b'"PyDateTime_DELTA_GET"': b'test_PyDateTime_DELTA_GET', b'"PyDateTime_GET"': b'test_PyDateTime_GET', b'"PyDateTime_TIME_GET"': b'test_PyDateTime_TIME_GET', b'"datetime_check_date"': b'datetime_check_date', b'"datetime_check_datetime"': b'datetime_check_datetime', b'"datetime_check_delta"': b'datetime_check_delta', b'"datetime_check_time"': b'datetime_check_time', b'"datetime_check_tzinfo"': b'datetime_check_tzinfo', b'"get_date_fromdate"': b'get_date_fromdate', b'"get_date_fromtimestamp"': b'get_date_fromtimestamp', b'"get_datetime_fromdateandtime"': b'get_datetime_fromdateandtime', b'"get_datetime_fromdateandtimeandfold"': b'get_datetime_fromdateandtimeandfold', b'"get_datetime_fromtimestamp"': b'get_datetime_fromtimestamp', b'"get_delta_fromdsu"': b'get_delta_fromdsu', b'"get_time_fromtime"': b'get_time_fromtime', b'"get_time_fromtimeandfold"': b'get_time_fromtimeandfold', b'"get_timezone_utc_capi"': b'get_timezone_utc_capi', b'"get_timezones_offset_zero"': b'get_timezones_offset_zero', b'"make_timezones_capi"': b'make_timezones_capi', b'"test_datetime_capi"': b'test_datetime_capi'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/run.c
+{b'"run_stringflags"': b'run_stringflags', b'"run_fileexflags"': b'run_fileexflags'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/getargs.c
+{b'"get_args"': b'get_args', b'"getargs_B"': b'getargs_B', b'"getargs_C"': b'getargs_C', b'"getargs_D"': b'getargs_D', b'"getargs_H"': b'getargs_H', b'"getargs_I"': b'getargs_I', b'"getargs_K"': b'getargs_K', b'"getargs_L"': b'getargs_L', b'"getargs_S"': b'getargs_S', b'"getargs_U"': b'getargs_U', b'"getargs_Y"': b'getargs_Y', b'"getargs_b"': b'getargs_b', b'"getargs_c"': b'getargs_c', b'"getargs_d"': b'getargs_d', b'"getargs_es"': b'getargs_es', b'"getargs_es_hash"': b'getargs_es_hash', b'"getargs_et"': b'getargs_et', b'"getargs_et_hash"': b'getargs_et_hash', b'"getargs_f"': b'getargs_f', b'"getargs_h"': b'getargs_h', b'"getargs_i"': b'getargs_i', b'"getargs_k"': b'getargs_k', b'"getargs_l"': b'getargs_l', b'"getargs_n"': b'getargs_n', b'"getargs_p"': b'getargs_p', b'"getargs_s"': b'getargs_s', b'"getargs_s_hash"': b'getargs_s_hash', b'"getargs_s_star"': b'getargs_s_star', b'"getargs_tuple"': b'getargs_tuple', b'"getargs_w_star"': b'getargs_w_star', b'"getargs_w_star_opt"': b'getargs_w_star_opt', b'"getargs_y"': b'getargs_y', b'"getargs_y_hash"': b'getargs_y_hash', b'"getargs_y_star"': b'getargs_y_star', b'"getargs_z"': b'getargs_z', b'"getargs_z_hash"': b'getargs_z_hash', b'"getargs_z_star"': b'getargs_z_star', b'"parse_tuple_and_keywords"': b'parse_tuple_and_keywords', b'"gh_99240_clear_args"': b'gh_99240_clear_args', b'"test_w_code_invalid"': b'test_w_code_invalid'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/vectorcall.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/bytes.c
+{b'"bytes_resize"': b'bytes_resize'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/unicode.c
+{b'"unicode_new"': b'unicode_new', b'"unicode_fill"': b'unicode_fill', b'"unicode_fromkindanddata"': b'unicode_fromkindanddata', b'"unicode_asucs4"': b'unicode_asucs4', b'"unicode_asucs4copy"': b'unicode_asucs4copy', b'"unicode_asutf8"': b'unicode_asutf8', b'"unicode_copycharacters"': b'unicode_copycharacters'}
+/home/yang/Desktop/summer/cpython/Modules/_testcapi/code.c
+{b'"test_code_extra"': b'test_code_extra'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/dict.c
+{b'"dict_check"': b'dict_check', b'"dict_checkexact"': b'dict_checkexact', b'"dict_new"': b'dict_new', b'"dictproxy_new"': b'dictproxy_new', b'"dict_clear"': b'dict_clear', b'"dict_copy"': b'dict_copy', b'"dict_size"': b'dict_size', b'"dict_getitem"': b'dict_getitem', b'"dict_getitemwitherror"': b'dict_getitemwitherror', b'"dict_getitemstring"': b'dict_getitemstring', b'"dict_contains"': b'dict_contains', b'"dict_setitem"': b'dict_setitem', b'"dict_setitemstring"': b'dict_setitemstring', b'"dict_delitem"': b'dict_delitem', b'"dict_delitemstring"': b'dict_delitemstring', b'"dict_keys"': b'dict_keys', b'"dict_values"': b'dict_values', b'"dict_items"': b'dict_items', b'"dict_next"': b'dict_next', b'"dict_merge"': b'dict_merge', b'"dict_update"': b'dict_update', b'"dict_mergefromseq2"': b'dict_mergefromseq2'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/list.c
+{b'"list_check"': b'list_check', b'"list_check_exact"': b'list_check_exact', b'"list_new"': b'list_new', b'"list_size"': b'list_size', b'"list_getitem"': b'list_getitem', b'"list_get_item_ref"': b'list_get_item_ref', b'"list_setitem"': b'list_setitem', b'"list_insert"': b'list_insert', b'"list_append"': b'list_append', b'"list_getslice"': b'list_getslice', b'"list_setslice"': b'list_setslice', b'"list_sort"': b'list_sort', b'"list_reverse"': b'list_reverse', b'"list_astuple"': b'list_astuple'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/object.c
+{b'"get_constant"': b'get_constant', b'"get_constant_borrowed"': b'get_constant_borrowed', b'"test_constants"': b'test_constants'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/set.c
+{b'"set_check"': b'set_check', b'"set_checkexact"': b'set_checkexact', b'"frozenset_check"': b'frozenset_check', b'"frozenset_checkexact"': b'frozenset_checkexact', b'"anyset_check"': b'anyset_check', b'"anyset_checkexact"': b'anyset_checkexact', b'"set_new"': b'set_new', b'"frozenset_new"': b'frozenset_new', b'"set_size"': b'set_size', b'"set_contains"': b'set_contains', b'"set_add"': b'set_add', b'"set_discard"': b'set_discard', b'"set_pop"': b'set_pop', b'"set_clear"': b'set_clear', b'"test_frozenset_add_in_capi"': b'test_frozenset_add_in_capi'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/vectorcall_limited.c
+{}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/abstract.c
+{b'"object_repr"': b'object_repr', b'"object_ascii"': b'object_ascii', b'"object_str"': b'object_str', b'"object_bytes"': b'object_bytes', b'"object_getattr"': b'object_getattr', b'"object_getattrstring"': b'object_getattrstring', b'"object_hasattr"': b'object_hasattr', b'"object_hasattrstring"': b'object_hasattrstring', b'"object_setattr"': b'object_setattr', b'"object_setattrstring"': b'object_setattrstring', b'"object_delattr"': b'object_delattr', b'"object_delattrstring"': b'object_delattrstring', b'"number_check"': b'number_check', b'"mapping_check"': b'mapping_check', b'"mapping_size"': b'mapping_size', b'"mapping_length"': b'mapping_length', b'"object_getitem"': b'object_getitem', b'"mapping_getitemstring"': b'mapping_getitemstring', b'"mapping_haskey"': b'mapping_haskey', b'"mapping_haskeystring"': b'mapping_haskeystring', b'"mapping_haskeywitherror"': b'mapping_haskeywitherror', b'"mapping_haskeystringwitherror"': b'mapping_haskeystringwitherror', b'"object_setitem"': b'object_setitem', b'"mapping_setitemstring"': b'mapping_setitemstring', b'"object_delitem"': b'object_delitem', b'"mapping_delitem"': b'mapping_delitem', b'"mapping_delitemstring"': b'mapping_delitemstring', b'"mapping_keys"': b'mapping_keys', b'"mapping_values"': b'mapping_values', b'"mapping_items"': b'mapping_items', b'"sequence_check"': b'sequence_check', b'"sequence_size"': b'sequence_size', b'"sequence_length"': b'sequence_length', b'"sequence_concat"': b'sequence_concat', b'"sequence_repeat"': b'sequence_repeat', b'"sequence_inplaceconcat"': b'sequence_inplaceconcat', b'"sequence_inplacerepeat"': b'sequence_inplacerepeat', b'"sequence_getitem"': b'sequence_getitem', b'"sequence_setitem"': b'sequence_setitem', b'"sequence_delitem"': b'sequence_delitem', b'"sequence_setslice"': b'sequence_setslice', b'"sequence_delslice"': b'sequence_delslice', b'"sequence_count"': b'sequence_count', b'"sequence_contains"': b'sequence_contains', b'"sequence_index"': b'sequence_index', b'"sequence_list"': b'sequence_list', b'"sequence_tuple"': b'sequence_tuple'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/float.c
+{b'"float_check"': b'float_check', b'"float_checkexact"': b'float_checkexact', b'"float_fromstring"': b'float_fromstring', b'"float_fromdouble"': b'float_fromdouble', b'"float_asdouble"': b'float_asdouble', b'"float_getinfo"': b'float_getinfo', b'"float_getmax"': b'float_getmax', b'"float_getmin"': b'float_getmin'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/complex.c
+{b'"complex_check"': b'complex_check', b'"complex_checkexact"': b'complex_checkexact', b'"complex_fromdoubles"': b'complex_fromdoubles', b'"complex_realasdouble"': b'complex_realasdouble', b'"complex_imagasdouble"': b'complex_imagasdouble'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/long.c
+{b'"pylong_check"': b'pylong_check', b'"pylong_checkexact"': b'pylong_checkexact', b'"pylong_fromdouble"': b'pylong_fromdouble', b'"pylong_fromstring"': b'pylong_fromstring', b'"pylong_fromvoidptr"': b'pylong_fromvoidptr', b'"pylong_aslong"': b'pylong_aslong', b'"pylong_aslongandoverflow"': b'pylong_aslongandoverflow', b'"pylong_asunsignedlong"': b'pylong_asunsignedlong', b'"pylong_asunsignedlongmask"': b'pylong_asunsignedlongmask', b'"pylong_aslonglong"': b'pylong_aslonglong', b'"pylong_aslonglongandoverflow"': b'pylong_aslonglongandoverflow', b'"pylong_asunsignedlonglong"': b'pylong_asunsignedlonglong', b'"pylong_asunsignedlonglongmask"': b'pylong_asunsignedlonglongmask', b'"pylong_as_ssize_t"': b'pylong_as_ssize_t', b'"pylong_as_size_t"': b'pylong_as_size_t', b'"pylong_asdouble"': b'pylong_asdouble', b'"pylong_asvoidptr"': b'pylong_asvoidptr', b'"pylong_aspid"': b'pylong_aspid'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/heaptype_relative.c
+{b'"get_memb"': b'heaptype_with_member_get_memb', b'"set_memb"': b'heaptype_with_member_set_memb', b'"get_memb_offset"': b'get_memb_offset', b'"get_memb_relative"': b'heaptype_with_member_get_memb_relative', b'"set_memb_relative"': b'heaptype_with_member_set_memb_relative', b'"make_sized_heaptypes"': b'make_sized_heaptypes', b'"subclass_var_heaptype"': b'subclass_var_heaptype', b'"subclass_heaptype"': b'subclass_heaptype', b'"make_heaptype_with_member"': b'make_heaptype_with_member', b'"test_alignof_max_align_t"': b'test_alignof_max_align_t'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/bytearray.c
+{b'"bytearray_check"': b'bytearray_check', b'"bytearray_checkexact"': b'bytearray_checkexact', b'"bytearray_fromstringandsize"': b'bytearray_fromstringandsize', b'"bytearray_fromobject"': b'bytearray_fromobject', b'"bytearray_size"': b'bytearray_size', b'"bytearray_asstring"': b'bytearray_asstring', b'"bytearray_concat"': b'bytearray_concat', b'"bytearray_resize"': b'bytearray_resize'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/pyos.c
+{b'"test_PyOS_mystrnicmp"': b'test_PyOS_mystrnicmp', b'"test_PyOS_mystricmp"': b'test_PyOS_mystricmp'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/sys.c
+{b'"sys_getobject"': b'sys_getobject', b'"sys_setobject"': b'sys_setobject', b'"sys_getxoptions"': b'sys_getxoptions'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/bytes.c
+{b'"bytes_check"': b'bytes_check', b'"bytes_checkexact"': b'bytes_checkexact', b'"bytes_fromstringandsize"': b'bytes_fromstringandsize', b'"bytes_fromstring"': b'bytes_fromstring', b'"bytes_fromobject"': b'bytes_fromobject', b'"bytes_size"': b'bytes_size', b'"bytes_asstring"': b'bytes_asstring', b'"bytes_asstringandsize"': b'bytes_asstringandsize', b'"bytes_asstringandsize_null"': b'bytes_asstringandsize_null', b'"bytes_repr"': b'bytes_repr', b'"bytes_concat"': b'bytes_concat', b'"bytes_concatanddel"': b'bytes_concatanddel', b'"bytes_decodeescape"': b'bytes_decodeescape'}
+/home/yang/Desktop/summer/cpython/Modules/_testlimitedcapi/unicode.c
+{b'"codec_incrementalencoder"': b'codec_incrementalencoder', b'"codec_incrementaldecoder"': b'codec_incrementaldecoder', b'"test_unicode_compare_with_ascii"': b'test_unicode_compare_with_ascii', b'"test_string_from_format"': b'test_string_from_format', b'"test_widechar"': b'test_widechar', b'"unicode_writechar"': b'unicode_writechar', b'"unicode_resize"': b'unicode_resize', b'"unicode_append"': b'unicode_append', b'"unicode_appendanddel"': b'unicode_appendanddel', b'"unicode_fromstringandsize"': b'unicode_fromstringandsize', b'"unicode_fromstring"': b'unicode_fromstring', b'"unicode_substring"': b'unicode_substring', b'"unicode_getlength"': b'unicode_getlength', b'"unicode_readchar"': b'unicode_readchar', b'"unicode_fromencodedobject"': b'unicode_fromencodedobject', b'"unicode_fromobject"': b'unicode_fromobject', b'"unicode_interninplace"': b'unicode_interninplace', b'"unicode_internfromstring"': b'unicode_internfromstring', b'"unicode_fromwidechar"': b'unicode_fromwidechar', b'"unicode_aswidechar"': b'unicode_aswidechar', b'"unicode_aswidechar_null"': b'unicode_aswidechar_null', b'"unicode_aswidecharstring"': b'unicode_aswidecharstring', b'"unicode_aswidecharstring_null"': b'unicode_aswidecharstring_null', b'"unicode_fromordinal"': b'unicode_fromordinal', b'"unicode_asutf8andsize"': b'unicode_asutf8andsize', b'"unicode_asutf8andsize_null"': b'unicode_asutf8andsize_null', b'"unicode_getdefaultencoding"': b'unicode_getdefaultencoding', b'"unicode_decode"': b'unicode_decode', b'"unicode_asencodedstring"': b'unicode_asencodedstring', b'"unicode_buildencodingmap"': b'unicode_buildencodingmap', b'"unicode_decodeutf7"': b'unicode_decodeutf7', b'"unicode_decodeutf7stateful"': b'unicode_decodeutf7stateful', b'"unicode_decodeutf8"': b'unicode_decodeutf8', b'"unicode_decodeutf8stateful"': b'unicode_decodeutf8stateful', b'"unicode_asutf8string"': b'unicode_asutf8string', b'"unicode_decodeutf16"': b'unicode_decodeutf16', b'"unicode_decodeutf16stateful"': b'unicode_decodeutf16stateful', b'"unicode_asutf16string"': b'unicode_asutf16string', b'"unicode_decodeutf32"': b'unicode_decodeutf32', b'"unicode_decodeutf32stateful"': b'unicode_decodeutf32stateful', b'"unicode_asutf32string"': b'unicode_asutf32string', b'"unicode_decodeunicodeescape"': b'unicode_decodeunicodeescape', b'"unicode_asunicodeescapestring"': b'unicode_asunicodeescapestring', b'"unicode_decoderawunicodeescape"': b'unicode_decoderawunicodeescape', b'"unicode_asrawunicodeescapestring"': b'unicode_asrawunicodeescapestring', b'"unicode_decodelatin1"': b'unicode_decodelatin1', b'"unicode_aslatin1string"': b'unicode_aslatin1string', b'"unicode_decodeascii"': b'unicode_decodeascii', b'"unicode_asasciistring"': b'unicode_asasciistring', b'"unicode_decodecharmap"': b'unicode_decodecharmap', b'"unicode_ascharmapstring"': b'unicode_ascharmapstring', b'"unicode_decodembcs"': b'unicode_decodembcs', b'"unicode_decodembcsstateful"': b'unicode_decodembcsstateful', b'"unicode_decodecodepagestateful"': b'unicode_decodecodepagestateful', b'"unicode_asmbcsstring"': b'unicode_asmbcsstring', b'"unicode_encodecodepage"': b'unicode_encodecodepage', b'"unicode_decodelocaleandsize"': b'unicode_decodelocaleandsize', b'"unicode_decodelocale"': b'unicode_decodelocale', b'"unicode_encodelocale"': b'unicode_encodelocale', b'"unicode_decodefsdefault"': b'unicode_decodefsdefault', b'"unicode_decodefsdefaultandsize"': b'unicode_decodefsdefaultandsize', b'"unicode_encodefsdefault"': b'unicode_encodefsdefault', b'"unicode_concat"': b'unicode_concat', b'"unicode_splitlines"': b'unicode_splitlines', b'"unicode_split"': b'unicode_split', b'"unicode_rsplit"': b'unicode_rsplit', b'"unicode_partition"': b'unicode_partition', b'"unicode_rpartition"': b'unicode_rpartition', b'"unicode_translate"': b'unicode_translate', b'"unicode_join"': b'unicode_join', b'"unicode_count"': b'unicode_count', b'"unicode_tailmatch"': b'unicode_tailmatch', b'"unicode_find"': b'unicode_find', b'"unicode_findchar"': b'unicode_findchar', b'"unicode_replace"': b'unicode_replace', b'"unicode_compare"': b'unicode_compare', b'"unicode_comparewithasciistring"': b'unicode_comparewithasciistring', b'"unicode_equaltoutf8"': b'unicode_equaltoutf8', b'"unicode_equaltoutf8andsize"': b'unicode_equaltoutf8andsize', b'"unicode_richcompare"': b'unicode_richcompare', b'"unicode_format"': b'unicode_format', b'"unicode_contains"': b'unicode_contains', b'"unicode_isidentifier"': b'unicode_isidentifier'}
+/home/yang/Desktop/summer/cpython/Misc/platform_triplet.c
+{}
+/home/yang/Desktop/summer/cpython/Misc/coverity_model.c
+{}
+/home/yang/Desktop/summer/cpython/Programs/python.c
+{}
+/home/yang/Desktop/summer/cpython/Programs/_bootstrap_python.c
+{}
+/home/yang/Desktop/summer/cpython/Programs/_testembed.c
+{}
+/home/yang/Desktop/summer/cpython/Programs/_freeze_module.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/action_helpers.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/token.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/myreadline.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/parser.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/pegen.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/peg_api.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/pegen_errors.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/string_parser.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/tokenizer/file_tokenizer.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/tokenizer/utf8_tokenizer.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/tokenizer/readline_tokenizer.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/tokenizer/string_tokenizer.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/tokenizer/helpers.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/lexer/state.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/lexer/buffer.c
+{}
+/home/yang/Desktop/summer/cpython/Parser/lexer/lexer.c
+{}
+/home/yang/Desktop/summer/cpython/Android/testbed/app/src/main/c/main_activity.c
+{}
+/home/yang/Desktop/summer/cpython/Mac/Tools/pythonw.c
+{}
+/home/yang/Desktop/summer/cpython/Python/pystrhex.c
+{}
+/home/yang/Desktop/summer/cpython/Python/context.c
+{b'"__class_getitem__"': b'Py_GenericAlias'}
+/home/yang/Desktop/summer/cpython/Python/pyctype.c
+{}
+/home/yang/Desktop/summer/cpython/Python/dynload_hpux.c
+{}
+/home/yang/Desktop/summer/cpython/Python/lock.c
+{}
+/home/yang/Desktop/summer/cpython/Python/qsbr.c
+{}
+/home/yang/Desktop/summer/cpython/Python/hashtable.c
+{}
+/home/yang/Desktop/summer/cpython/Python/pyfpe.c
+{}
+/home/yang/Desktop/summer/cpython/Python/sysmodule.c
+{b'"audit"': b'METH_FASTCALL', b'"breakpointhook"': b'breakpointhook_doc', b'"getobjects"': b'_Py_GetObjects', b'"getsizeof"': b'getsizeof_doc', b'"set_asyncgen_hooks"': b'set_asyncgen_hooks_doc'}
+/home/yang/Desktop/summer/cpython/Python/instruction_sequence.c
+{}
+/home/yang/Desktop/summer/cpython/Python/pymath.c
+{}
+/home/yang/Desktop/summer/cpython/Python/optimizer_bytecodes.c
+{}
+/home/yang/Desktop/summer/cpython/Python/gc.c
+{}
+/home/yang/Desktop/summer/cpython/Python/suggestions.c
+{}
+/home/yang/Desktop/summer/cpython/Python/frozenmain.c
+{}
+/home/yang/Desktop/summer/cpython/Python/Python-ast.c
+{b'"__reduce__"': b'ast_type_reduce'}
+/home/yang/Desktop/summer/cpython/Python/mystrtoul.c
+{}
+/home/yang/Desktop/summer/cpython/Python/formatter_unicode.c
+{}
+/home/yang/Desktop/summer/cpython/Python/frame.c
+{}
+/home/yang/Desktop/summer/cpython/Python/pathconfig.c
+{}
+/home/yang/Desktop/summer/cpython/Python/getcopyright.c
+{}
+/home/yang/Desktop/summer/cpython/Python/pystrcmp.c
+{}
+/home/yang/Desktop/summer/cpython/Python/ast_opt.c
+{}
+/home/yang/Desktop/summer/cpython/Python/pytime.c
+{}
+/home/yang/Desktop/summer/cpython/Python/optimizer_symbols.c
+{}
+/home/yang/Desktop/summer/cpython/Python/pystrtod.c
+{}
+/home/yang/Desktop/summer/cpython/Python/fileutils.c
+{}
+/home/yang/Desktop/summer/cpython/Python/getopt.c
+{}
+/home/yang/Desktop/summer/cpython/Python/bytecodes.c
+{}
+/home/yang/Desktop/summer/cpython/Python/dynamic_annotations.c
+{}
+/home/yang/Desktop/summer/cpython/Python/interpconfig.c
+{}
+/home/yang/Desktop/summer/cpython/Python/dynload_win.c
+{}
+/home/yang/Desktop/summer/cpython/Python/flowgraph.c
+{}
+/home/yang/Desktop/summer/cpython/Python/gc_gil.c
+{}
+/home/yang/Desktop/summer/cpython/Python/pythonrun.c
+{}
+/home/yang/Desktop/summer/cpython/Python/dynload_shlib.c
+{}
+/home/yang/Desktop/summer/cpython/Python/modsupport.c
+{}
+/home/yang/Desktop/summer/cpython/Python/pyhash.c
+{}
+/home/yang/Desktop/summer/cpython/Python/frozen.c
+{}
+/home/yang/Desktop/summer/cpython/Python/errors.c
+{}
+/home/yang/Desktop/summer/cpython/Python/assemble.c
+{}
+/home/yang/Desktop/summer/cpython/Python/ceval.c
+{}
+/home/yang/Desktop/summer/cpython/Python/pylifecycle.c
+{}
+/home/yang/Desktop/summer/cpython/Python/object_stack.c
+{}
+/home/yang/Desktop/summer/cpython/Python/Python-tokenize.c
+{}
+/home/yang/Desktop/summer/cpython/Python/dynload_stub.c
+{}
+/home/yang/Desktop/summer/cpython/Python/dtoa.c
+{}
+/home/yang/Desktop/summer/cpython/Python/perf_jit_trampoline.c
+{}
+/home/yang/Desktop/summer/cpython/Python/marshal.c
+{}
+/home/yang/Desktop/summer/cpython/Python/pystate.c
+{}
+/home/yang/Desktop/summer/cpython/Python/specialize.c
+{}
+/home/yang/Desktop/summer/cpython/Python/initconfig.c
+{}
+/home/yang/Desktop/summer/cpython/Python/import.c
+{}
+/home/yang/Desktop/summer/cpython/Python/gc_free_threading.c
+{}
+/home/yang/Desktop/summer/cpython/Python/symtable.c
+{}
+/home/yang/Desktop/summer/cpython/Python/getversion.c
+{}
+/home/yang/Desktop/summer/cpython/Python/bltinmodule.c
+{b'"__reduce__"': b'METH_NOARGS', b'"__setstate__"': b'METH_O', b'"__build_class__"': b'build_class_doc', b'"breakpoint"': b'breakpoint_doc', b'"dir"': b'builtin_dir', b'"getattr"': b'METH_FASTCALL', b'"iter"': b'METH_FASTCALL', b'"max"': b'max_doc', b'"min"': b'min_doc', b'"next"': b'METH_FASTCALL', b'"vars"': b'builtin_vars'}
+/home/yang/Desktop/summer/cpython/Python/codecs.c
+{}
+/home/yang/Desktop/summer/cpython/Python/mysnprintf.c
+{}
+/home/yang/Desktop/summer/cpython/Python/structmember.c
+{}
+/home/yang/Desktop/summer/cpython/Python/traceback.c
+{b'"__dir__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Python/legacy_tracing.c
+{}
+/home/yang/Desktop/summer/cpython/Python/_warnings.c
+{}
+/home/yang/Desktop/summer/cpython/Python/perf_trampoline.c
+{}
+/home/yang/Desktop/summer/cpython/Python/hamt.c
+{b'"set"': b'METH_VARARGS', b'"get"': b'METH_VARARGS', b'"delete"': b'METH_O', b'"items"': b'METH_NOARGS', b'"keys"': b'METH_NOARGS', b'"values"': b'METH_NOARGS', b'"__dump__"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Python/instrumentation.c
+{}
+/home/yang/Desktop/summer/cpython/Python/getcompiler.c
+{}
+/home/yang/Desktop/summer/cpython/Python/ceval_gil.c
+{}
+/home/yang/Desktop/summer/cpython/Python/ast.c
+{}
+/home/yang/Desktop/summer/cpython/Python/emscripten_trampoline.c
+{}
+/home/yang/Desktop/summer/cpython/Python/bootstrap_hash.c
+{}
+/home/yang/Desktop/summer/cpython/Python/thread.c
+{}
+/home/yang/Desktop/summer/cpython/Python/parking_lot.c
+{}
+/home/yang/Desktop/summer/cpython/Python/importdl.c
+{}
+/home/yang/Desktop/summer/cpython/Python/dup2.c
+{}
+/home/yang/Desktop/summer/cpython/Python/optimizer_analysis.c
+{}
+/home/yang/Desktop/summer/cpython/Python/future.c
+{}
+/home/yang/Desktop/summer/cpython/Python/critical_section.c
+{}
+/home/yang/Desktop/summer/cpython/Python/brc.c
+{}
+/home/yang/Desktop/summer/cpython/Python/preconfig.c
+{}
+/home/yang/Desktop/summer/cpython/Python/emscripten_signal.c
+{}
+/home/yang/Desktop/summer/cpython/Python/ast_unparse.c
+{}
+/home/yang/Desktop/summer/cpython/Python/pyarena.c
+{}
+/home/yang/Desktop/summer/cpython/Python/getargs.c
+{}
+/home/yang/Desktop/summer/cpython/Python/asdl.c
+{}
+/home/yang/Desktop/summer/cpython/Python/jit.c
+{}
+/home/yang/Desktop/summer/cpython/Python/getplatform.c
+{}
+/home/yang/Desktop/summer/cpython/Python/crossinterp.c
+{}
+/home/yang/Desktop/summer/cpython/Python/optimizer.c
+{b'"is_valid"': b'is_valid', b'"get_opcode"': b'get_opcode', b'"get_oparg"': b'get_oparg', b'"get_jit_code"': b'get_jit_code', b'"get_count"': b'counter_get_counter'}
+/home/yang/Desktop/summer/cpython/Python/tracemalloc.c
+{}
+/home/yang/Desktop/summer/cpython/Python/compile.c
+{}
+/home/yang/Desktop/summer/cpython/Python/intrinsics.c
+{}
+/home/yang/Desktop/summer/cpython/Tools/jit/template.c
+{}
+/home/yang/Desktop/summer/cpython/Tools/jit/trampoline.c
+{}
+/home/yang/Desktop/summer/cpython/Tools/peg_generator/peg_extension/peg_extension.c
+{b'"clear_memo_stats"': b'clear_memo_stats', b'"dump_memo_stats"': b'dump_memo_stats', b'"get_memo_stats"': b'get_memo_stats'}
+/home/yang/Desktop/summer/cpython/PC/dl_nt.c
+{}
+/home/yang/Desktop/summer/cpython/PC/venvlauncher.c
+{}
+/home/yang/Desktop/summer/cpython/PC/winsound.c
+{}
+/home/yang/Desktop/summer/cpython/PC/WinMain.c
+{}
+/home/yang/Desktop/summer/cpython/PC/launcher.c
+{}
+/home/yang/Desktop/summer/cpython/PC/winreg.c
+{}
+/home/yang/Desktop/summer/cpython/PC/config.c
+{}
+/home/yang/Desktop/summer/cpython/PC/launcher2.c
+{}
+/home/yang/Desktop/summer/cpython/PC/config_minimal.c
+{}
+/home/yang/Desktop/summer/cpython/PC/python3dll.c
+{}
+/home/yang/Desktop/summer/cpython/PC/frozen_dllmain.c
+{}
+/home/yang/Desktop/summer/cpython/PC/msvcrtmodule.c
+{}
+/home/yang/Desktop/summer/cpython/PC/_testconsole.c
+{}
+/home/yang/Desktop/summer/cpython/PC/invalid_parameter_handler.c
+{}
+/home/yang/Desktop/summer/cpython/Doc/includes/run-func.c
+{}
+/home/yang/Desktop/summer/cpython/Doc/includes/newtypes/custom3.c
+{b'"name"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Doc/includes/newtypes/sublist.c
+{b'"increment"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Doc/includes/newtypes/custom.c
+{}
+/home/yang/Desktop/summer/cpython/Doc/includes/newtypes/custom2.c
+{b'"name"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Doc/includes/newtypes/custom4.c
+{b'"name"': b'METH_NOARGS'}
+/home/yang/Desktop/summer/cpython/Lib/test/clinic.test.c
+{}
+/home/yang/Desktop/summer/cpython/Lib/test/test_cext/extension.c
+{b'"add"': b'_testcext_add'}

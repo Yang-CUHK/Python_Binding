@@ -1,0 +1,2 @@
+/home/yang/Desktop/summer/simplejson/simplejson/_speedups.c
+{b'"encode_basestring_ascii"': b'(PyCFunction)py_encode_basestring_ascii', b'"scanstring"': b'(PyCFunction)py_scanstring'}
