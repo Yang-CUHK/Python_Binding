@@ -1,8 +1,10 @@
 import argparse
 import os
+import cython
 from tree_sitter import Language, Parser
 from python_c_visitor import Python_C_API_Visitor
 from pybind11_visitor import Pybind11_Visitor
+from cython_visitor import Cython_Visitor
 import warnings
 
 # the language
@@ -22,6 +24,10 @@ if args.config == 'pybind11':
     CPP_LANGUAGE = Language('build/my-languages.so', 'cpp')
     cpp_parser = Parser()
     cpp_parser.set_language(CPP_LANGUAGE)
+elif args.config == 'cython':
+    C_LANGUAGE = Language('build/my-languages.so', 'c')
+    c_parser = Parser()
+    c_parser.set_language(C_LANGUAGE)
 else:
     C_LANGUAGE = Language('build/my-languages.so', 'c')
     c_parser = Parser()
@@ -38,15 +44,24 @@ else:
             if args.config == 'pybind11':
                 if f.endswith('.cpp'):
                     sources.append(os.path.join(dir, f))
+            elif args.config == 'cython':
+                if f.endswith('.pyx'):
+                    os.system(f"cython {os.path.join(dir, f)}")
+                    filename = f.replace('.pyx', '.c')
+                    sources.append(os.path.join(dir, filename))
+
             else:
                 if f.endswith('.c'):
                     sources.append(os.path.join(dir, f))
 
 
 for s in sources:
-    print(s)
+    if args.config == 'cython':
+        print(s.replace('.c', '.pyx'))
+    else:
+        print(s)
 
-    # C source -> ast
+    # C/Cpp source -> ast
     # preprocess, parse
     ast = None
     try:
@@ -54,6 +69,10 @@ for s in sources:
             with open(s, "r") as file:
                 cpp_code_snippet = file.read()
             tree = cpp_parser.parse(bytes(cpp_code_snippet, "utf-8"))
+        elif args.config == 'cython':
+            with open(s, "r") as file:
+                c_code_snippet = file.read()
+            tree = c_parser.parse(bytes(c_code_snippet, "utf8"))
         else:
             with open(s, "r") as file:
                 c_code_snippet = file.read()
@@ -68,12 +87,19 @@ for s in sources:
 
     if args.config == 'pybind11':
         visitor = Pybind11_Visitor()
+    elif args.config == 'cython':
+        visitor = Cython_Visitor()
     else:
         visitor = Python_C_API_Visitor()
     visitor.visit(root_node)
 
 
     visitor.bindinglist()
+
+
+if args.config == 'cython':
+    for s in sources:
+        os.remove(s)
 
     #print(visitor.python_c_binding)
 

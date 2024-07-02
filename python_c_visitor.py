@@ -44,27 +44,7 @@ class Python_C_API_Visitor(Visitor):
                 self.python_c_binding[key] = value
         print(self.python_c_binding)
 
-        # self.binding = []
-        # for tem in self.bindings3:
-        #     for child in tem.children:
-        #         self.binding.append(child)
-        #         print(child.type,child.text)
-        #
-        # self.python_c_binding = {}
-        # for tem in self.bindings3:
-        #     is_value = 0
-        #     if child.type == 'string_literal':
-        #         keyname = str(child.text)
-        #     if child.type == 'identifier' and is_value == 0:
-        #         is_value = 1
-            #     value = str(child.text)
-            # for child in tem.children:
-            #     if child.type == 'string_literal':
-            #         keyname = str(child.text)
-            #     if child.type == 'identifier' and is_value == 0:
-            #         is_value = 1
-            #         value = str(child.text)
-            # self.python_c_binding[keyname] = value
+
     def getdict(self, initializer_list):
         iskey, isvalue = False, False
         key, value = None, None
